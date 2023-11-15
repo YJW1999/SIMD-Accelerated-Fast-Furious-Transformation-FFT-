@@ -33,6 +33,7 @@ Results:
 The performance of 'fft_simd' highly depends on the input size which in general can be concluded that when the input size is 2^N, the performance of fft_simd is better than the input size of 2^(N-1).
 
 InputSize(2^N)           'fft'runtime(s)         'fft_simd'runtime(s)
+
      3                      2.666e-06               0.000178791
      5                      7.542e-06               0.000225334
      7                      2.775e-05               0.000131083
