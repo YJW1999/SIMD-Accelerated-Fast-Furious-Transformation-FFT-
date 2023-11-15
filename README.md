@@ -43,8 +43,12 @@ InputSize(2^N)      /     'fft'runtime(s)      /   'fft_simd'runtime(s)
      22                     2.47433                 1.44607
      25                     21.2141                 12.5287
 
-Based on the table, the fft_simd converges to around 70% faster than the original implementation. 
- 
+Based on the table, the fft_simd converges to around 70% faster than the original implementation.
+
+Limitations:
+
+The 'arm_neon' has a limitation of 128 bits maximum size of SIMD register. If using AVX2 256 bits register in 'immintrinsic.h' instead, 2x more elements can be processed at the same time which can further increase the performance for roughly 30-40% proposed. 
+
 References:
 
 https://rosettacode.org/wiki/Fast_Fourier_transform#C++
