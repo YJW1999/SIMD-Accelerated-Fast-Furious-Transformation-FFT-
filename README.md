@@ -42,6 +42,7 @@ InputSize(2^N)           'fft'runtime(s)         'fft_simd'runtime(s)
      17                     0.0525476               0.035574
      20                     0.554643                0.331002
      22                     2.47433                 1.44607
+     25                     21.2141                 12.5287
  
 References:
 
