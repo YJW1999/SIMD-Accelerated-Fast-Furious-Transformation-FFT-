@@ -2,7 +2,7 @@
 
 Description:
 
-C++ SIMD Version FFT algorithm implementation using M1 'arm_neon' instruction Pack
+C++ SIMD Version FFT algorithm implementation using M1 'arm_neon' instruction Pack. 
 
 
 Object:
