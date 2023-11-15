@@ -1,4 +1,4 @@
-# SIMD-Fast-Furious-Transformation[FFT]
+# SIMD-Accelerated-Fast-Furious-Transformation[FFT]
 
 Description:
 
