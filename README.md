@@ -22,3 +22,5 @@ To Run:
 Run the following command in the terminal Window on a M-series chip Mac,
 [./test]
 
+Result:
+
