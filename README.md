@@ -30,8 +30,19 @@ Run the following command in the terminal Window on a M-series chip Mac,
 
 Results:
 
-The performance of 'fft_simd' highly depends on the input size, 
+The performance of 'fft_simd' highly depends on the input size which in general can be concluded that when the input size is 2^N, the performance of fft_simd is better than the input size of 2^(N-1).
 
+InputSize(2^N)           'fft'runtime(s)         'fft_simd'runtime(s)
+     3                      2.666e-06               0.000178791
+     5                      7.542e-06               0.000225334
+     7                      2.775e-05               0.000131083
+     10                     0.000306583             0.00039975
+     11                     0.00039975              0.000569667
+     15                     0.0128552               0.00858237
+     17                     0.0525476               0.035574
+     20                     0.554643                0.331002
+     22                     2.47433                 1.44607
+ 
 References:
 
 
