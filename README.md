@@ -20,7 +20,7 @@ The insights involve multi-thread, data vectorization, data alignment, and SIMD 
 To Build The Executable File:
 
 Run the following command in the terminal Window on a M-series chip Mac,
-[Clang main.cpp -o test]
+[Clang++ -std=c++11 main.cpp -o test]
 
 
 To Run:
@@ -29,6 +29,8 @@ Run the following command in the terminal Window on a M-series chip Mac,
 [./test]
 
 Results:
+
+The performance of 'fft_simd' highly depends on the input size, 
 
 References:
 
