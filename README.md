@@ -47,7 +47,7 @@ Based on the table, the fft_simd converges to around 70% faster than the origina
 
 Limitations:
 
-The 'arm_neon' has a limitation of 128 bits maximum size of SIMD register. If using AVX2 256 bits register in 'immintrinsic.h' instead, 2x more elements can be processed at the same time which can further increase the performance by roughly 30-40% proposed. 
+The 'arm_neon' has a limitation of 128 bits maximum size of SIMD register. If using AVX2 256 bits register in 'immintrinsic.h' instead, 2x more elements can be processed at the same time which can further increase the performance by roughly 20-30% proposed. 
 
 References:
 
